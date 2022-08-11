@@ -2,7 +2,7 @@
 The official website for the Computing Councils of Canada.
 
 ## Contribution
-Refer to our ![Contribution document](https://github.com/ccubed-dev/Website/contribute)
+Refer to our [Contribution document](https://github.com/ccubed-dev/Website/contribute)
 
 ## To develop locally
 Clone the repo using
