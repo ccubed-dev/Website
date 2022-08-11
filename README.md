@@ -1,10 +1,12 @@
 # Website
 The official website for the Computing Councils of Canada.
 
-## Contribution
-Refer to our [Contribution document](https://github.com/ccubed-dev/Website/contribute)
 
-## To develop locally
+## Contribution
+Refer to our [Contribution page](https://github.com/ccubed-dev/Website/contribute) for this repo.
+
+
+## Developing Locally
 Clone the repo using
 ```shell
 git clone https://github.com/ccubed-dev/Website/
