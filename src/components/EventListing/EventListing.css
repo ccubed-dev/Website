@@ -43,10 +43,15 @@
   /* or 140% */
 
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 
   color: #ffffff;
+}
+
+.event-listing__date-snippet-day {
+  font-size: 28px;
 }
 
 .event-listing__event-content {
