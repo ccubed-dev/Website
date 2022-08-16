@@ -7,5 +7,5 @@ export const PageContainer = ({children}) => {
 };
 
 PageContainer.propTypes = {
-    children: PropTypes.any
+    children: PropTypes.node
 };
