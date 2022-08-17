@@ -10,5 +10,5 @@ export const AppContainer = ({children}) => {
 };
 
 AppContainer.propTypes = {
-    children: PropTypes.any
+    children: PropTypes.node
 };
