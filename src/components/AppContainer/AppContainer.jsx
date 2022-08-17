@@ -1,11 +1,14 @@
 import React from "react";
-import Router from "@/Router";
-import "./AppContainer.css";
+import PropTypes from "prop-types";
 
-export const AppContainer = () => {
+export const AppContainer = ({children}) => {
     return (
-        <div>
-            <Router />
+        <div className="app-container">
+            {children}
         </div>
     );
+};
+
+AppContainer.propTypes = {
+    children: PropTypes.any
 };

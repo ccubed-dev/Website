@@ -1,15 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { AppContainer } from "@components";
 import { LandingPage } from "@pages";
 
-const Router = () => {
+export const Router = () => {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<LandingPage />} />
-            </Routes>
-        </BrowserRouter>
+        <AppContainer>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<LandingPage />} />
+                </Routes>
+            </BrowserRouter>
+        </AppContainer>
     );
 };
-
-export default Router;
