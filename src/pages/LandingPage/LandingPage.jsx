@@ -2,7 +2,7 @@ import React from "react";
 import "./LandingPage.css";
 
 import { PageContainer } from "@components";
-import { HeroSection, AboutSection, ContactSection } from "@pages/LandingPage";
+import { HeroSection, AboutSection, ContactSection, EventsSection } from "@pages/LandingPage";
 
 export const LandingPage = () => {
     return (
@@ -10,6 +10,7 @@ export const LandingPage = () => {
             <HeroSection />
             <AboutSection />
             <ContactSection />
+            <EventsSection />
         </PageContainer>
     );
 };
