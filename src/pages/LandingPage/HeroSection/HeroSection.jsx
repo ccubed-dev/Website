@@ -1,6 +1,5 @@
-import React from "react";
-import "./HeroSection.css";
+import React from 'react';
 
 export const HeroSection = () => {
-    return <p>hero</p>;
+  return <p>hero</p>;
 };
